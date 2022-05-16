@@ -209,6 +209,8 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 //used by the 2021 rerelease
 //Note: same value as svcdp_effect!
 #define svc_achievement			52		// [string] id
+// also 2021 rerelease.  unused?
+#define svc_localsound		56
 
 // client to server
 #define	clc_bad			0

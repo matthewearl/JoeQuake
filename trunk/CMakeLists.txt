@@ -124,6 +124,12 @@ add_executable(joequake-gl
     world.h
     zone.c
     zone.h
+    ghost/demoparse.c
+    ghost/demoparse.h
+    ghost/ghost.c
+    ghost/ghost.h
+    ghost/ghost_private.h
+    ghost/ghostparse.c
 )
 
 target_compile_definitions(joequake-gl
